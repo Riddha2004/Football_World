@@ -111,7 +111,7 @@ span{
     align-items: center;
 }
 .hero-content{
-    background-image: url("hero_image.webp");
+    background-image: url("media/hero_image.webp");
     background-size: cover;
     height:520px;
     width:100%;
