@@ -112,9 +112,9 @@ span{
     align-items: center;
 }
 .hero-content{
-    background-image: url("media/uefa_image.webp"); 
+    background-image: url("media/laliga_img.jpeg"); 
     background-size: cover; 
-    height:520px; 
+    height:620px; 
     width:100%; 
     display: flex;
     justify-content: center;
