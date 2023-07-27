@@ -215,6 +215,14 @@ span{
     background-size: cover;
     height: 65px;
 }
+.leagues4{
+    background-size: cover;
+    height:82px;
+}
+a {
+    color:black;
+    text-decoration: none;
+}
 .teams{
     display:flex;
     flex-wrap: wrap;
