@@ -2,6 +2,9 @@
     margin: 0;
    
 }
+a{
+    text-decoration: none;
+}
 .navbar{
     color:white;
     background-color: rgb(0, 115, 255);
@@ -112,9 +115,9 @@ span{
     align-items: center;
 }
 .hero-content{
-    background-image: url("media/bund_img.avif"); 
+    background-image: url("../media/seriea_img.avif"); 
     background-size: cover; 
-    height:720px; 
+    height: 720px; 
     width:100%; 
     display: flex;
     justify-content: center;
