@@ -2,6 +2,9 @@
     margin: 0;
    
 }
+a{
+    text-decoration: none;
+}
 .navbar{
     color:white;
     background-color: rgb(0, 115, 255);
@@ -112,7 +115,7 @@ span{
     align-items: center;
 }
 .hero-content{
-    background-image: url("media/copa_img.webp"); 
+    background-image: url("../media/copa_img.webp"); 
     background-size: cover; 
     height:600px; 
     width:100%; 
