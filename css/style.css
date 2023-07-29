@@ -113,6 +113,9 @@ span{
     border-bottom: 6px solid black;
     align-items: center;
 }
+.hm{
+    color:white
+}
 .hero-content{
     background-image: url("../media/hero_image.webp");
     background-size: cover;

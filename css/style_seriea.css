@@ -105,6 +105,9 @@ span{
     align-items: center;
     justify-content: space-evenly;
 }
+.hm{
+    color:white
+}
 .margin1{
     height: 20px;
     width: 60px;
