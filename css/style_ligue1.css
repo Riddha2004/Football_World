@@ -249,6 +249,7 @@ span{
       display: block;
       padding-bottom: 30px;
       padding-top: 30px;
+      padding-right: 45px;
     }
     .panel1 ul li a{
         font-size:20px;
@@ -256,4 +257,76 @@ span{
     #check:checked~ul{
         left:0;
     }  
+    .hm{
+        color:white
+    }
+    .hero-content{
+        background-image: url("../media/worldc_image.webp");
+        background-size: cover;
+        height:540px;
+        width:100%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+}
+@media (max-width:750px)
+{
+    .hero-content{
+        background-image: url("../media/worldc_image.webp");
+        background-size: cover;
+        height:360px;
+        width:100%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+}
+@media (max-width:650px)
+{
+    .hero-content{
+        background-image: url("../media/worldc_image.webp");
+        background-size: cover;
+        height:340px;
+        width:100%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+}
+@media (max-width:550px)
+{
+    .hero-content{
+        background-image: url("../media/worldc_image.webp");
+        background-size: cover;
+        height:320px;
+        width:100%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+}
+@media (max-width:450px)
+{
+    .hero-content{
+        background-image: url("../media/worldc_image.webp");
+        background-size: cover;
+        height:260px;
+        width:100%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+}
+@media (max-width:350px)
+{
+    .hero-content{
+        background-image: url("../media/worldc_image.webp");
+        background-size: cover;
+        height:150px;
+        width:100%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
 }
