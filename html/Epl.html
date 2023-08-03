@@ -55,6 +55,28 @@
             <p>You can Explore much more. </p><a> Click Here to Explore More Content</a>
         </div>
     </div>
+    <div class="updates" style="margin: 20px; padding: 20px;">
+      <h1>Latest Stats</h1>
+  </div>
+  <div style="display: block; margin: 20px; padding: 20px;">
+      <div id="fs-standings"></div>
+      <script>
+          (function(w, d, s, o, f, js, fjs) {
+              w['fsStandingsEmbed'] = o;
+              w[o] = w[o] || function() {
+                  (w[o].q = w[o].q || []).push(arguments)
+              };
+              js = d.createElement(s), fjs = d.getElementsByTagName(s)[0];
+              js.id = o;
+              js.src = f;
+              js.async = 1;
+              fjs.parentNode.insertBefore(js, fjs);
+          }(window, document, 'script', 'mw', 'https://cdn.footystats.org/embeds/standings.js'));
+          mw('params', {
+              leagueID: 9660
+          });
+      </script>
+  </div>
     <div class="updates"><h2 class="nu">News Updates</h2></div>
     <div class="news-section">
         <div class="box1 box">
