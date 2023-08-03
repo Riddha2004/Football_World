@@ -221,10 +221,10 @@ span{
     display: flex;
 }
 .pop-comp1{
-    background-color: #e2e7e6;
-    display: flex;
+    display:flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
-    align-items: center;
+    background-color: #e2e7e6;
 }
 .competition{
     background-color: #e2e7e6;
