@@ -6,6 +6,7 @@
     <title>EPL</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="../css/style_epl.css">
+    <script src="../script.js"></script>
 </head>
 <body>
     <header>
@@ -39,16 +40,20 @@
         <div class="panel1">
           <input type="checkbox" id="check">
           <label for="check" class="checkb">
-              <i class="fa-solid fa-bars"></i>
+          <div  id="menu" onclick="onClickMenu()">
+              <div id="bar1" class="bar"></div>
+              <div id="bar2" class="bar"></div>
+              <div id="bar3" class="bar"></div>
+          </div>
           </label>
-          <ul class="panel-ops">
+          <ul class="panel-ops" id="panel-ops">
               <li class="margin1"><a href="../index.html" class="hm">Home</a></li>
               <li class="margin1"><a>Fixtures</a></li>
               <li class="margin1"><a>News</a></li>
               <li class="margin1"><a>Teams</a></li>
               <li class="margin1"><a href="https://www.fifa.com/fifa-world-ranking">Rankings</a></li>
           </ul>
-      </div>
+        </div>
     </header>
     <div class="hero-content">
         <div class="hero-msg">

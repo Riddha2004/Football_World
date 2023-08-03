@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="css/style.css">
+    <script src="script.js"></script>
 </head>
 
 <body>
@@ -42,17 +43,21 @@
         <div class="panel1">
             <input type="checkbox" id="check">
             <label for="check" class="checkb">
-                <i class="fa-solid fa-bars"></i>
+            <div  id="menu" onclick="onClickMenu()">
+                <div id="bar1" class="bar"></div>
+                <div id="bar2" class="bar"></div>
+                <div id="bar3" class="bar"></div>
+            </div>
             </label>
-            <ul class="panel-ops">
-                <li class="margin1"><a href="#" class="hm">Home</a></li>
+            <ul class="panel-ops" id="panel-ops">
+                <li class="margin1"><a href="../index.html" class="hm">Home</a></li>
                 <li class="margin1"><a>Fixtures</a></li>
                 <li class="margin1"><a>News</a></li>
                 <li class="margin1"><a>Teams</a></li>
                 <li class="margin1"><a href="https://www.fifa.com/fifa-world-ranking">Rankings</a></li>
             </ul>
         </div>
-    </header>
+    </header>    
     <div class="hero-content">
         <div class="hero-msg">
             <p>You can Explore much more. </p><a> Click Here to Explore More Content</a>
@@ -138,7 +143,7 @@
                 </a>
             </div>
         </div>
-        <div class="comp5 cp">
+         <div class="comp5 cp">
             <div class="comps">
                 <a href="html/bund.html">
                     <div class="leagues5 leagues" style="background-image: url('media/bund_image.jpeg');"></div>
@@ -172,7 +177,7 @@
                     <div class="leagues9 leagues" style="background-image: url('media/ucl_logo.jpeg');"></div>
                 </a>
             </div>
-        </div>
+        </div> 
 
     </div>
 
