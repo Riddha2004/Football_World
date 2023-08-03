@@ -176,6 +176,9 @@ span{
     background-size: cover;
     width: 100%;
 }
+.h1 {
+    display: block;
+}
 .updates{
     background-color: #e2e7e6;
     display:flex;
